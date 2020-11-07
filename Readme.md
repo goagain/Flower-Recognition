@@ -4,7 +4,7 @@
 ### Statement of work <br>
 
 Rui Tang | Step I <br>
-
+![](https://github.com/goagain/Flower-Recognition/blob/main/business%20understanding/resources/Picture1.jpg)
 #### Abstract <br>
 This Statement will show the outlines of flower recognition system, which can detect flower type in a picture and label it correctly. <br>
 
@@ -21,6 +21,7 @@ A convolutional neural network consists of an input and an output layer, as well
 
 In this system, inputs are pixels in each picture, and the output will be the probability of each category. Loss evaluation function will be Categorical Crossentropy. <br>
 
+![](https://github.com/goagain/Flower-Recognition/blob/main/business%20understanding/resources/Picture2.jpg)
 
 
 #### Validation Process and Optimization <br>
