@@ -29,6 +29,20 @@ To avoid overfitting or underfitting, cross validation will be used. Firstly, we
 
 After training, a curve diagram will be showed to indicate whether the model is overfitting or underfitting. <br>
 
+#### Training without data processing <br>
+In this project, TensorFlow and Keras were used to train the model. In first version, data were divided into training dataset and testing dataset. Then with batch size 32 and epoch 20, the first model is trained. However, there was a serious overfitting phenomenon.  Based on the following accuracy curve, before the training accuracy curve and validation accuracy curve cross, it is underfitting. After that, the validation accuracy stays still, but the training accuracy goes to nearly perfect. <br>
+![](business%20understanding/resources/overfitting.png)
+
+#### Training with Data Transformation <br>
+One efficient way to overcome overfitting problem is to find and input more data. However, there is another way to make more dataset. By translation, rotation, scaling, adding random noise, we can produce more data. Using these methods, we can significantly improve the overfitting problem, as shown in the figure below. <br>
+![](business%20understanding/resources/accuracy_curve.png)
+
+#### Usage of Model <br>
+After training a decent model, we take advantage of OpenCV to process a video. In each frame, OpenCV will extract the image and resize it to fit the model data format and predict. When the model gets the result, we use OpenCV to insert a label and its precision into the frame.
+
+#### Deployment <br>
+Complete in the next part.
+
 #### Resources <br>
 https://www.kaggle.com/alxmamaev/flowers-recognition <br>
 
