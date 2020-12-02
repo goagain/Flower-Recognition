@@ -39,7 +39,8 @@ One efficient way to overcome overfitting problem is to find and input more data
 
 #### Usage of Model <br>
 After training a decent model, we take advantage of OpenCV to process a video. In each frame, OpenCV will extract the image and resize it to fit the model data format and predict. When the model gets the result, we use OpenCV to insert a label and its precision into the frame.
-
+![](business%20understanding/resources/video_snapshot.png)
+![](business%20understanding/resources/video_snapshot2.png)
 #### Deployment <br>
 Complete in the next part.
 
