@@ -45,7 +45,7 @@ After training a decent model, we take advantage of OpenCV to process a video. I
 This project offers 2 ways to deploy: integrated into another Python application or works independently. <br> <br>
     a)	For developers wanting to integrate this model into another Python application, like Flask or Django, you can create a instance of Processor, and call process_img or process_video function. <br>
     b)	For developers or users who want to run separately, you can run it in command line. To see the detail of usage, click [here](deployment). <br>
-
+To see the sample video output, you can click [here](business%20understanding/resources/sample_output.mp4)
 #### Resources <br>
 https://www.kaggle.com/alxmamaev/flowers-recognition <br>
 
