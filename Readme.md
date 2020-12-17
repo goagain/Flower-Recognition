@@ -1,5 +1,5 @@
 ### **Notice** <br>
-### This file is a copy of [statement of work](business%20understanding/Statement%20of%20Work%20II.docx)  <br>
+### This file is a copy of [statement of work](business%20understanding/Final%20Statement%20of%20Work.docx)  <br>
 # Flower Recognition <br>
 ### Statement of work <br>
 
@@ -42,7 +42,9 @@ After training a decent model, we take advantage of OpenCV to process a video. I
 ![](business%20understanding/resources/video_snapshot.png)
 ![](business%20understanding/resources/video_snapshot2.png)
 #### Deployment <br>
-Complete in the next part.
+This project offers 2 ways to deploy: integrated into another Python application or works independently.
+    a)	For developers wanting to integrate this model into another Python application, like Flask or Django, you can create a instance of Processor, and call process_img or process_video function.
+    b)	For developers or users who want to run separately, you can run it in command line. To see the detail of usage, click [here](deployment).
 
 #### Resources <br>
 https://www.kaggle.com/alxmamaev/flowers-recognition <br>
